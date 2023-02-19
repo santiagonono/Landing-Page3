@@ -1,0 +1,22 @@
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.square.x {
+  color: #f00;
+}
+
+.square.o {
+  color: #00f;
+}
